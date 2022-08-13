@@ -25,7 +25,7 @@ class FeaturedViewController: UIViewController {
     coursesTableView.dataSource = self
     coursesTableView.layer.masksToBounds = false
     // any time it receive a value of cgsize or content size
-    coursesTableView.publisher(for: \.contentSize).sink{newContentSize in self.tableViewHeight.constant = newContentSize.height}.store(in: &tokens)
+    coursesTableView.publisher(for: \.contentSize).sink{ newContentSize in self.tableViewHeight.constant = newContentSize.height}.store(in: &tokens)
     scrollView.delegate = self
     featuredTitleLabel.adjustsFontForContentSizeCategory = true
     featuredTitleLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)

@@ -24,7 +24,6 @@ class CoursesTableViewCell: UITableViewCell {
       layer.masksToBounds = false
       layer.cornerRadius = 30
     
-    
     titleLabel.adjustsFontForContentSizeCategory = true
     titleLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)
     titleLabel.maximumContentSizeCategory = .extraExtraLarge
