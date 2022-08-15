@@ -36,16 +36,14 @@ class LoginViewController: UIViewController {
       }
     //creating a new publisher for emailtextfield (any time there is change in emailtextfield we can update the variable async)
     // use combine to listen changes inside text field
-    emailTextField.publisher(for: \.text).sink {
-      newValue in self.emailIsEmpty = (newValue == "" || newValue == nil)
+    emailTextField.publisher(for: \.text).sink { newValue in self.emailIsEmpty = (newValue == "" || newValue == nil)
     }.store(in: &tokens)
-    passwordTextField.publisher(for: \.text).sink {
-      newValue in self.passwordIsEmpty = (newValue == "" || newValue == nil)
+    passwordTextField.publisher(for: \.text).sink { newValue in self.passwordIsEmpty = (newValue == "" || newValue == nil)
     }.store(in: &tokens)
     
     }
   @IBAction func primaryBtnAction(_ sender: Any) {
-    if(emailIsEmpty || passwordIsEmpty) {
+    if emailIsEmpty || passwordIsEmpty {
       let alert = UIAlertController(title: "Missing Information", message: "Please make sure to enter a valid email password", preferredStyle: .alert)
       alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
       self.present(alert, animated: true, completion: nil)
@@ -54,7 +52,7 @@ class LoginViewController: UIViewController {
         Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) {
           authResult, error in
           guard error == nil else {
-            print(error!.localizedDescription)
+            print( error!.localizedDescription)
             return
           }
           // if success segue to home screen

@@ -25,7 +25,7 @@ class FeaturedViewController: UIViewController {
     coursesTableView.dataSource = self
     coursesTableView.layer.masksToBounds = false
     // any time it receive a value of cgsize or content size
-    coursesTableView.publisher(for: \.contentSize).sink{ newContentSize in self.tableViewHeight.constant = newContentSize.height}.store(in: &tokens)
+    coursesTableView.publisher(for: \.contentSize).sink { newContentSize in self.tableViewHeight.constant = newContentSize.height}.store(in: &tokens)
     scrollView.delegate = self
     featuredTitleLabel.adjustsFontForContentSizeCategory = true
     featuredTitleLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)
@@ -48,7 +48,7 @@ class FeaturedViewController: UIViewController {
     coursesLabel.maximumContentSizeCategory = .accessibilityExtraLarge
   }
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    if let detailsVC = segue.destination as? CoursesViewController, let course = sender as? Course{
+    if let detailsVC = segue.destination as? CoursesViewController, let course = sender as? Course {
       detailsVC.course = course
     }
   }

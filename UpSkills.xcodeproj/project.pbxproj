@@ -17,8 +17,14 @@
 		7C450E252896BB560006477C /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C450E212896BB550006477C /* CustomUIView.swift */; };
 		7C450E262896BB560006477C /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C450E222896BB550006477C /* Font.swift */; };
 		7C450E272896BB560006477C /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C450E232896BB550006477C /* CustomImageView.swift */; };
+		7C7FDA9628AA29CF00F82F08 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FDA9528AA29CF00F82F08 /* Notification.swift */; };
 		7C95854128A5247800CCD981 /* SectionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95854028A5247800CCD981 /* SectionsCollectionViewCell.swift */; };
 		7C95854328A5253B00CCD981 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95854228A5253B00CCD981 /* ExploreViewController.swift */; };
+		7C9D387628A9F863002CDA16 /* CertificateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D387328A9F863002CDA16 /* CertificateItem.swift */; };
+		7C9D387728A9F863002CDA16 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D387428A9F863002CDA16 /* FlipView.swift */; };
+		7C9D387828A9F863002CDA16 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D387528A9F863002CDA16 /* CertificateView.swift */; };
+		7C9D387C28AA00AA002CDA16 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D387B28AA00AA002CDA16 /* NotificationTableViewCell.swift */; };
+		7C9D387E28AA023B002CDA16 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D387D28AA023B002CDA16 /* NotificationsViewController.swift */; };
 		7CA3CB5E28941F36005AC467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3CB5D28941F36005AC467 /* AppDelegate.swift */; };
 		7CA3CB6028941F36005AC467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3CB5F28941F36005AC467 /* SceneDelegate.swift */; };
 		7CA3CB6228941F36005AC467 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3CB6128941F36005AC467 /* FeaturedViewController.swift */; };
@@ -29,6 +35,7 @@
 		7CC363B22898FE430098612A /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC363B12898FE430098612A /* Course.swift */; };
 		7CCC45D62897FE090014BD23 /* HandbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC45D52897FE090014BD23 /* HandbookCollectionViewCell.swift */; };
 		7CDFFDC428A0D8D9005F4E32 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDFFDC328A0D8D9005F4E32 /* CoursesTableViewCell.swift */; };
+		7CE8102828A9157300351085 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8102728A9157300351085 /* LibraryViewController.swift */; };
 		7CFA113B28A763DC009FCA94 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7CFA113A28A763DC009FCA94 /* FirebaseAnalytics */; };
 		7CFA113D28A763DC009FCA94 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7CFA113C28A763DC009FCA94 /* FirebaseAuth */; };
 		7CFA113F28A763DC009FCA94 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7CFA113E28A763DC009FCA94 /* FirebaseFirestore */; };
@@ -51,8 +58,14 @@
 		7C450E212896BB550006477C /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
 		7C450E222896BB550006477C /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		7C450E232896BB550006477C /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		7C7FDA9528AA29CF00F82F08 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		7C95854028A5247800CCD981 /* SectionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C95854228A5253B00CCD981 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		7C9D387328A9F863002CDA16 /* CertificateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateItem.swift; sourceTree = "<group>"; };
+		7C9D387428A9F863002CDA16 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		7C9D387528A9F863002CDA16 /* CertificateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CertificateView.swift; path = "../../../../Documents/Video/IOS part 2/UIKit Part 2 Source File/Completed Project/UIKit for iOS 15/Views/CertificateView.swift"; sourceTree = "<group>"; };
+		7C9D387B28AA00AA002CDA16 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		7C9D387D28AA023B002CDA16 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		7CA3CB5A28941F36005AC467 /* UpSkills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpSkills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA3CB5D28941F36005AC467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CA3CB5F28941F36005AC467 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +78,7 @@
 		7CC363B12898FE430098612A /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		7CCC45D52897FE090014BD23 /* HandbookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookCollectionViewCell.swift; sourceTree = "<group>"; };
 		7CDFFDC328A0D8D9005F4E32 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
+		7CE8102728A9157300351085 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		7CFA114828A763EE009FCA94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +112,16 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		7C9D387028A9F783002CDA16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C9D387328A9F863002CDA16 /* CertificateItem.swift */,
+				7C9D387528A9F863002CDA16 /* CertificateView.swift */,
+				7C9D387428A9F863002CDA16 /* FlipView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7CA3CB5128941F36005AC467 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +144,7 @@
 				7C450E1F2896BB550006477C /* Helpers */,
 				7CA3CB5D28941F36005AC467 /* AppDelegate.swift */,
 				7CA3CB5F28941F36005AC467 /* SceneDelegate.swift */,
+				7C9D387028A9F783002CDA16 /* Views */,
 				7CC363B52899025A0098612A /* Classes */,
 				7CC363B42899024A0098612A /* Cells */,
 				7CC363B3289902330098612A /* View Controllers */,
@@ -140,6 +165,8 @@
 				7C02CB9F28A14C07003714BD /* CoursesViewController.swift */,
 				7C95854228A5253B00CCD981 /* ExploreViewController.swift */,
 				7CB343B728A7A5E80002C758 /* LoginViewController.swift */,
+				7CE8102728A9157300351085 /* LibraryViewController.swift */,
+				7C9D387D28AA023B002CDA16 /* NotificationsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -152,6 +179,7 @@
 				7C242DFE28A3A8B300D19E7D /* SectionTableViewCell.swift */,
 				7C95854028A5247800CCD981 /* SectionsCollectionViewCell.swift */,
 				7C2D965E28A651AB005D7177 /* TopicsTableViewCell.swift */,
+				7C9D387B28AA00AA002CDA16 /* NotificationTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -162,6 +190,7 @@
 				7CC363B12898FE430098612A /* Course.swift */,
 				7C02CBA128A14DE3003714BD /* Section.swift */,
 				7C2D966028A652A7005D7177 /* Topic.swift */,
+				7C7FDA9528AA29CF00F82F08 /* Notification.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -274,18 +303,25 @@
 			files = (
 				7CC363B22898FE430098612A /* Course.swift in Sources */,
 				7C2D966128A652A7005D7177 /* Topic.swift in Sources */,
+				7C9D387628A9F863002CDA16 /* CertificateItem.swift in Sources */,
 				7C95854128A5247800CCD981 /* SectionsCollectionViewCell.swift in Sources */,
 				7CCC45D62897FE090014BD23 /* HandbookCollectionViewCell.swift in Sources */,
+				7C9D387E28AA023B002CDA16 /* NotificationsViewController.swift in Sources */,
 				7CB343B828A7A5E80002C758 /* LoginViewController.swift in Sources */,
 				7C02CBA028A14C07003714BD /* CoursesViewController.swift in Sources */,
+				7CE8102828A9157300351085 /* LibraryViewController.swift in Sources */,
 				7C242DFF28A3A8B300D19E7D /* SectionTableViewCell.swift in Sources */,
 				7C2F024A28A4DECC00B49025 /* CustomTabBarViewController.swift in Sources */,
 				7C2D965F28A651AC005D7177 /* TopicsTableViewCell.swift in Sources */,
+				7C9D387728A9F863002CDA16 /* FlipView.swift in Sources */,
+				7C9D387C28AA00AA002CDA16 /* NotificationTableViewCell.swift in Sources */,
 				7C95854328A5253B00CCD981 /* ExploreViewController.swift in Sources */,
 				7CA3CB6228941F36005AC467 /* FeaturedViewController.swift in Sources */,
+				7C9D387828A9F863002CDA16 /* CertificateView.swift in Sources */,
 				7C450E252896BB560006477C /* CustomUIView.swift in Sources */,
 				7C450E262896BB560006477C /* Font.swift in Sources */,
 				7C450E272896BB560006477C /* CustomImageView.swift in Sources */,
+				7C7FDA9628AA29CF00F82F08 /* Notification.swift in Sources */,
 				7CA3CB5E28941F36005AC467 /* AppDelegate.swift in Sources */,
 				7C450E242896BB560006477C /* CustomBlurView.swift in Sources */,
 				7C02CBA228A14DE3003714BD /* Section.swift in Sources */,

@@ -1,4 +1,3 @@
-
 import UIKit
 import Combine
 
@@ -30,7 +29,7 @@ class CoursesViewController: UIViewController {
     self.titleLabel.text = course?.courseTitle
     self.descriptionLabel.text = course?.courseDescription
     self.authorLabel.text = "Taught by \(course?.courseAuthor?.formatted(.list(type: .and, width: .standard)) ?? "Taught by design+code")"
-    
+      
     // create menu
     let menu = UIMenu(title: "Course Options", options: .displayInline,
       children: [
