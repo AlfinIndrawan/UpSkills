@@ -29,7 +29,7 @@ class FeaturedViewController: UIViewController {
     scrollView.delegate = self
     featuredTitleLabel.adjustsFontForContentSizeCategory = true
     featuredTitleLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)
-    featuredTitleLabel.maximumContentSizeCategory = .accessibilityExtraLarge
+    featuredTitleLabel.maximumContentSizeCategory = .accessibilityMedium
     
     featuredSubtitleLabel.adjustsFontForContentSizeCategory = true
     featuredSubtitleLabel.font = UIFont.preferredFont(for: .footnote, weight: .bold)

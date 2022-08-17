@@ -15,11 +15,11 @@ class NotificationTableViewCell: UITableViewCell {
     
     subtitleLabel.adjustsFontForContentSizeCategory = true
     subtitleLabel.font = UIFont.preferredFont(for: .caption1, weight: .semibold)
-    subtitleLabel.maximumContentSizeCategory = . extraLarge
+    subtitleLabel.maximumContentSizeCategory = .extraLarge
     
     messageLabel.adjustsFontForContentSizeCategory = true
     messageLabel.font = UIFont.preferredFont(for: .caption1, weight: .regular)
-    messageLabel.maximumContentSizeCategory = . extraLarge
+    messageLabel.maximumContentSizeCategory = .extraLarge
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

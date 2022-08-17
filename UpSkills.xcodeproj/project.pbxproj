@@ -141,14 +141,14 @@
 		7CA3CB5C28941F36005AC467 /* UpSkills */ = {
 			isa = PBXGroup;
 			children = (
-				7C450E1F2896BB550006477C /* Helpers */,
-				7CA3CB5D28941F36005AC467 /* AppDelegate.swift */,
-				7CA3CB5F28941F36005AC467 /* SceneDelegate.swift */,
-				7C9D387028A9F783002CDA16 /* Views */,
-				7CC363B52899025A0098612A /* Classes */,
 				7CC363B42899024A0098612A /* Cells */,
 				7CC363B3289902330098612A /* View Controllers */,
+				7C450E1F2896BB550006477C /* Helpers */,
+				7C9D387028A9F783002CDA16 /* Views */,
+				7CC363B52899025A0098612A /* Classes */,
 				7CA3CB6328941F36005AC467 /* Main.storyboard */,
+				7CA3CB5F28941F36005AC467 /* SceneDelegate.swift */,
+				7CA3CB5D28941F36005AC467 /* AppDelegate.swift */,
 				7C450E1E2896B1090006477C /* MyPlayground.playground */,
 				7CA3CB6628941F41005AC467 /* Assets.xcassets */,
 				7CA3CB6828941F41005AC467 /* LaunchScreen.storyboard */,

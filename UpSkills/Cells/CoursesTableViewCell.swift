@@ -30,11 +30,11 @@ class CoursesTableViewCell: UITableViewCell {
     
     subtitleLabel.adjustsFontForContentSizeCategory = true
     subtitleLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
-    subtitleLabel.maximumContentSizeCategory = . extraLarge
+    subtitleLabel.maximumContentSizeCategory = .extraLarge
     
     descriptionLabel.adjustsFontForContentSizeCategory = true
     descriptionLabel.font = UIFont.preferredFont(for: .footnote, weight: .regular)
-    descriptionLabel.maximumContentSizeCategory = . extraLarge
+    descriptionLabel.maximumContentSizeCategory = .extraLarge
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

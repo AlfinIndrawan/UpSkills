@@ -26,7 +26,7 @@ class SectionsCollectionViewCell: UICollectionViewCell {
     
     subtitleLabel.adjustsFontForContentSizeCategory = true
     subtitleLabel.font = UIFont.preferredFont(for: .caption1, weight: .regular)
-    subtitleLabel.maximumContentSizeCategory = . extraLarge
+    subtitleLabel.maximumContentSizeCategory = .extraLarge
     
   }
   // this function run a particular collection view cell is about to be reused for a new view
