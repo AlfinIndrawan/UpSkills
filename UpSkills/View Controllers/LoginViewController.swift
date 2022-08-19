@@ -20,8 +20,8 @@ class LoginViewController: UIViewController {
   var passwordIsEmpty = true
   var loginStatus: LoginStatus = .signUp {
     didSet {
-      self.titleLabel.text = (loginStatus == .signUp) ? "Sign up" : "Sign in"
-      self.primaryBtn.setTitle((loginStatus == .signUp) ? "Sign up" : "Sign in", for: .normal)
+      self.titleLabel.text = (loginStatus == .signUp) ? NSLocalizedString("Sign up", comment: "Sign up") : NSLocalizedString("Sign in", comment: "Sign in")
+      self.primaryBtn.setTitle((loginStatus == .signUp) ? NSLocalizedString("Sign up", comment: "Sign up") : NSLocalizedString("Sign in", comment: "Sign in"), for: .normal)
       self.accessoryBtn.setTitle((loginStatus == .signUp) ? "Don't have account?" : "Already have account?", for: .normal)
       self.passwordTextField.textContentType = (loginStatus == .signUp) ? .newPassword : .password
   }
@@ -44,7 +44,7 @@ class LoginViewController: UIViewController {
     }
   @IBAction func primaryBtnAction(_ sender: Any) {
     if emailIsEmpty || passwordIsEmpty {
-      let alert = UIAlertController(title: "Missing Information", message: "Please make sure to enter a valid email password", preferredStyle: .alert)
+      let alert = UIAlertController(title: NSLocalizedString("Missing Information", comment: "Missing Information"), message: NSLocalizedString("Please make sure to enter a valid email password", comment: "Please make sure to enter a valid email password"), preferredStyle: .alert)
       alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
       self.present(alert, animated: true, completion: nil)
     } else {

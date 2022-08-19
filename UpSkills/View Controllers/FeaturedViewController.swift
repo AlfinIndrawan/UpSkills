@@ -63,9 +63,9 @@ extension FeaturedViewController: UICollectionViewDelegate, UICollectionViewData
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CourseCell", for: indexPath) as! HandbookCollectionViewCell
     
     let handbook = handbooks[indexPath.item]
-    cell.titleLabel.text = handbook.courseTitle
-    cell.subtitleLabel.text = handbook.courseSubtitle
-    cell.descriptionLabel.text = handbook.courseDescription
+    cell.titleLabel.text = NSLocalizedString(handbook.courseTitle, comment: handbook.courseTitle)
+    cell.subtitleLabel.text = NSLocalizedString(handbook.courseSubtitle, comment: handbook.courseSubtitle)
+    cell.descriptionLabel.text = NSLocalizedString(handbook.courseDescription, comment: handbook.courseDescription)
     cell.gradient.colors =  handbook.courseGradient
     cell.logo.image = handbook.courseIcon
     cell.banner.image = handbook.courseBanner
@@ -118,11 +118,11 @@ extension FeaturedViewController: UIScrollViewDelegate {
     let lastScrollYPos = scrollView.contentOffset.y
     let percentage = lastScrollYPos / contentHeight
     if percentage < 0.15 {
-      self.title = "Featured"
+      self.title = NSLocalizedString("Featured", comment: "Featured")
     } else if percentage <= 0.33 {
-      self.title = "Handbooks"
+      self.title = NSLocalizedString("Handbooks", comment: "Handbooks")
     } else {
-      self.title = "Courses"
+      self.title = NSLocalizedString("Courses", comment: "Courses")
     }
   }
 }

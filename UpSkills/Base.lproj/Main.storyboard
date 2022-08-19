@@ -487,12 +487,12 @@
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dOi-hb-Y3G" customClass="CustomView" customModule="UpSkills" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="235" width="382" height="202.5"/>
+                                        <rect key="frame" x="16" y="234.5" width="382" height="203"/>
                                         <subviews>
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dfw-k0-4Pc" customClass="CustomBlurView" customModule="UpSkills" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="382" height="202.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="203"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="WNd-CO-6ez">
-                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="202.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="203"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LqE-JA-a9F" customClass="CustomView" customModule="UpSkills" customModuleProvider="target">
@@ -539,7 +539,7 @@
                                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R01-LI-lnP">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="202.5"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8nl-f0-Y79">
-                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="202.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="203"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHs-Uh-zxM">
@@ -1346,12 +1346,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SLE-Z0-VxM" customClass="CustomView" customModule="UpSkills" customModuleProvider="target">
-                                <rect key="frame" x="20" y="199.5" width="374" height="497"/>
+                                <rect key="frame" x="20" y="200" width="374" height="496.5"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3lB-LY-Uwv" customClass="CustomBlurView" customModule="UpSkills" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="497"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="496.5"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wn5-iT-V2f">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="497"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="496.5"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qv3-53-qb0">
@@ -2546,7 +2546,7 @@
         <image name="rectangle.stack.badge.play.fill" catalog="system" width="128" height="117"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="AccentColor">
-            <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.3843137254901961" green="0.20392156862745098" blue="0.83529411764705885" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="BlurBackground">
             <color red="1" green="1" blue="1" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>

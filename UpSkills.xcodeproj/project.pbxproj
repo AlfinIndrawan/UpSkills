@@ -20,6 +20,7 @@
 		7C7FDA9628AA29CF00F82F08 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FDA9528AA29CF00F82F08 /* Notification.swift */; };
 		7C95854128A5247800CCD981 /* SectionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95854028A5247800CCD981 /* SectionsCollectionViewCell.swift */; };
 		7C95854328A5253B00CCD981 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95854228A5253B00CCD981 /* ExploreViewController.swift */; };
+		7C9C6ADD28AF6B3C0082CC54 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C9C6ADF28AF6B3C0082CC54 /* Localizable.strings */; };
 		7C9D387628A9F863002CDA16 /* CertificateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D387328A9F863002CDA16 /* CertificateItem.swift */; };
 		7C9D387728A9F863002CDA16 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D387428A9F863002CDA16 /* FlipView.swift */; };
 		7C9D387828A9F863002CDA16 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D387528A9F863002CDA16 /* CertificateView.swift */; };
@@ -61,6 +62,10 @@
 		7C7FDA9528AA29CF00F82F08 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		7C95854028A5247800CCD981 /* SectionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C95854228A5253B00CCD981 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		7C9C6ADE28AF6B3C0082CC54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C9C6AE428AF72F80082CC54 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		7C9C6AE528AF72F80082CC54 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7C9C6AE628AF72F80082CC54 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7C9D387328A9F863002CDA16 /* CertificateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateItem.swift; sourceTree = "<group>"; };
 		7C9D387428A9F863002CDA16 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
 		7C9D387528A9F863002CDA16 /* CertificateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CertificateView.swift; path = "../../../../Documents/Video/IOS part 2/UIKit Part 2 Source File/Completed Project/UIKit for iOS 15/Views/CertificateView.swift"; sourceTree = "<group>"; };
@@ -154,6 +159,7 @@
 				7CA3CB6828941F41005AC467 /* LaunchScreen.storyboard */,
 				7CA3CB6B28941F41005AC467 /* Info.plist */,
 				7CFA114828A763EE009FCA94 /* GoogleService-Info.plist */,
+				7C9C6ADF28AF6B3C0082CC54 /* Localizable.strings */,
 			);
 			path = UpSkills;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 7CA3CB5128941F36005AC467;
 			packageReferences = (
@@ -266,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9C6ADD28AF6B3C0082CC54 /* Localizable.strings in Resources */,
 				7CA3CB6A28941F41005AC467 /* LaunchScreen.storyboard in Resources */,
 				7CFA114928A763EE009FCA94 /* GoogleService-Info.plist in Resources */,
 				7CA3CB6728941F41005AC467 /* Assets.xcassets in Resources */,
@@ -333,10 +341,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7C9C6ADF28AF6B3C0082CC54 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9C6ADE28AF6B3C0082CC54 /* en */,
+				7C9C6AE628AF72F80082CC54 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		7CA3CB6328941F36005AC467 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7CA3CB6428941F36005AC467 /* Base */,
+				7C9C6AE428AF72F80082CC54 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -345,6 +363,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7CA3CB6928941F41005AC467 /* Base */,
+				7C9C6AE528AF72F80082CC54 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -356,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -416,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

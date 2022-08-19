@@ -17,7 +17,7 @@ class Section {
 }
 // swiftlint:disable line_length
 let sections = [
-    Section(title: "Advanced Custom Layout", subtitle: "SwiftUI for iOS 15", description: "Build an iOS app for iOS 15 with custom layouts.", icon: UIImage(named: "Logo SwiftUI"), banner: UIImage(named: "Illustration 3")),
-    Section(title: "Coding the Home View", subtitle: "SwiftUI Concurrency", description: "Learn about the formatted(date:time:) method and AsyncImage", icon: UIImage(named: "Logo SwiftUI"), banner: UIImage(named: "Illustration 4")),
-    Section(title: "Colors and Shadows", subtitle: "Flutter for Designers", description: "Read about the design guidelines and how you can use color to maximize your best views", icon: UIImage(named: "Logo Flutter"), banner: UIImage(named: "Illustration 1"))
+    Section(title: NSLocalizedString( "Advanced Custom Layout", comment:  "Advanced Custom Layout"), subtitle: NSLocalizedString("SwiftUI for iOS 15", comment: "SwiftUI for iOS 15"), description: NSLocalizedString("Build an iOS app for iOS 15 with custom layouts.", comment: "Build an iOS app for iOS 15 with custom layouts."), icon: UIImage(named: "Logo SwiftUI"), banner: UIImage(named: "Illustration 3")),
+    Section(title: NSLocalizedString("Coding the Home View", comment: "Coding the Home View"), subtitle: NSLocalizedString("SwiftUI Concurrency", comment: "SwiftUI Concurrency"), description: NSLocalizedString("Learn about the formatted(date:time:) method and AsyncImage", comment: "Learn about the formatted(date:time:) method and AsyncImage"), icon: UIImage(named: "Logo SwiftUI"), banner: UIImage(named: "Illustration 4")),
+    Section(title: NSLocalizedString("Colors and Shadows", comment: "Colors and Shadows"), subtitle: NSLocalizedString("Flutter for Designers", comment: "Flutter for Designers"), description: NSLocalizedString("Read about the design guidelines and how you can use color to maximize your best views", comment: "Read about the design guidelines and how you can use color to maximize your best views"), icon: UIImage(named: "Logo Flutter"), banner: UIImage(named: "Illustration 1"))
 ]
